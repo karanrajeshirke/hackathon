@@ -1,0 +1,30 @@
+.dashboard {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-name {
+    margin-bottom: 20px;
+}
+
+.user-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-profile-pic {
+    width: 20%;
+}
+
+.user-profile-pic img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.user-info {
+    width: 60%;
+}

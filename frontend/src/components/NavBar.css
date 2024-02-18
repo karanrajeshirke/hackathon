@@ -1,0 +1,30 @@
+/* NavBar Styles */
+.navbar {
+    background: linear-gradient(90deg, #ff5733, #ffa833, #ffd133);
+    background-size: 200% 200%;
+    animation: wave 3s infinite alternate;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #000000 !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #9f1a1a !important;
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+.navbar-nav .nav-link.mentor {
+    color: #1aa449f !important;
+    font-style: italic;
+}
+
+.navbar-nav .nav-link.mentor:hover {
+    color: #9986e0 !important;
+}

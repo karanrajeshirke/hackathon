@@ -1,0 +1,25 @@
+.footer {
+    background: linear-gradient(90deg, #ff5733, #ffa833, #ffd133);
+    background-size: 200% 200%;
+    animation: wave 3s infinite alternate;
+    color: #ffffff;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+@keyframes wave {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.chalk-font {
+    font-family: 'Courier New', Courier, monospace;
+}
